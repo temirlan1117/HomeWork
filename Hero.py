@@ -26,6 +26,7 @@ class SuperHero:
 hero = SuperHero(name="Рексар", nickname="Повелитель зверей", superpower="призывать животных", health=100,
                  catchphrase="Смелее мой юный друг!")
 hero.prints_name()
+
 print(hero)
 hero.double_health()
 print("здоровье после баффа:",hero.health)
